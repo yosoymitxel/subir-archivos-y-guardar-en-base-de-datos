@@ -64,7 +64,7 @@ if ( isset($_FILES['uploadedFile']) && $_FILES['uploadedFile']['error'] === UPLO
         $message = 'Error al subir. Solo se admiten los siguientes formatos: ' . implode(', ', $extensionesValidas);
     }
 } else {
-    $message = "Hubo un error al intentar subir el archivo.<br>";
+    $message = "Hubo un error al intentar subir el archivo.";
 }
-echo "<p id='respuesta'>$message</p>";
+echo "$message";
 
