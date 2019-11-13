@@ -1,6 +1,7 @@
 
 //Esta parte es la que sube el archivo
 $("#uploadFile").submit(function() {
+	var formData = new FormData ();
 	var files = $('#uploadedFile')[0].files[0];
 	formData.append('uploadedFile',files);
 	$.ajax({
