@@ -1,3 +1,4 @@
+<?php
 //En $direccion_archivo lo cambias por dirección del archivo a descargar ejemplo ./descargar/archivo/texto.txt
 //En $nombre_nuevo_archivo_sin_formato irá el nombre pero ojo debe ir un ".txt" o ".pdf" , o "." cualquier formato para que al descargar no te salga un archivo "descarga" sino "descarga.txt"
 
